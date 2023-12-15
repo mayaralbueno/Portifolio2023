@@ -11,7 +11,7 @@ html, body{
 }
 
 section#inicio {
-    background-image: url("./img/Finding\ The\ Best\ Bluetooth\ Adapter\ For\ PC\ Gaming\ -\ FragMeta.jpg");
+    background-image: url("./img/Nezuko\ 3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -29,7 +29,7 @@ section#inicio span#subtitle {
 }
 
 .text-shadow{
-    text-shadow: 4px 4px 10px #000000;
+    text-shadow: 4px 4px 10px #e764a8;
 }
 
 section#inicio div#arraste {
@@ -46,7 +46,7 @@ section#inicio div#arraste a {
     top: 0;
     left: 0;
     bottom: 0;
-    background: #021124;
+    background: #f580c2;
     overflow-y: auto;
     width: 300px;
     transition: all ease-in-out 0.5s;
@@ -58,7 +58,7 @@ section#inicio div#arraste a {
     margin: 15px auto;
     display: block;
     width: 120px;
-    border: 8px solid #2c2f3f;
+    border: 8px solid #f370ba;
     border-radius: 50%;
 }
 
@@ -73,7 +73,7 @@ section#inicio div#arraste a {
 
 #header .profile .social-links a {
     font-size: 1rem;
-    background: #212431;
+    background: #ca44a8;
     color: white;
     padding: 0.6rem;
     margin-right: 1rem;
@@ -83,7 +83,7 @@ section#inicio div#arraste a {
 }
 
 #header .profile .social-links a:hover {
-    background: #149ddd;
+    background: #e6e6e6;
 }
 
 .nav-menu {
@@ -94,7 +94,7 @@ section#inicio div#arraste a {
 .nav-menu a:focus{
     display: flex;
     align-items: center;
-    color: #a8a9b4;
+    color: #ffffff;
     transition: 0.3s;
     font-size: 15px;
 }
@@ -103,7 +103,7 @@ section#inicio div#arraste a {
 .nav-menu a:focus{
     font-size: 24px;
     padding-right: 0.8rem;
-    color: #6f7180;
+    color: #ffffff;
 }
 
 .nav-menu a:hover,
@@ -118,13 +118,13 @@ section#inicio div#arraste a {
 .nav-menu .active  i,
 .nav-menu .active:focus i,
 .nav-menu li:hover > a i{
-    color: #149ddd;
+    color: #ffffff;
 }
 
 i.menu-mobile{
     position: fixed;
     color: #fff;
-    background-color: #252c90;
+    background-color: #a32ab1;
     right: 1rem;
     top: 1rem;
     font-size: 1.5rem;
@@ -178,7 +178,7 @@ i.menu-mobile{
 }
 
 *::-webkit-scrollbar-thumb {
-    background-color: #252c90;
+    background-color: #d73bb5;
 }
 
 .section-bg {
