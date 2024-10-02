@@ -11,7 +11,7 @@ html, body{
 }
 
 section#inicio {
-    background-image: url("./img/Nezuko\ 3.jpg");
+    background-image: url("./img/My\ updated\ desk\ setup!\ -\ \(video\ to\ come\).jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -29,7 +29,7 @@ section#inicio span#subtitle {
 }
 
 .text-shadow{
-    text-shadow: 4px 4px 10px #e764a8;
+    text-shadow: 4px 4px 10px #a54da0;
 }
 
 section#inicio div#arraste {
@@ -46,7 +46,7 @@ section#inicio div#arraste a {
     top: 0;
     left: 0;
     bottom: 0;
-    background: #f580c2;
+    background: #db98f1;
     overflow-y: auto;
     width: 300px;
     transition: all ease-in-out 0.5s;
@@ -58,8 +58,8 @@ section#inicio div#arraste a {
     margin: 15px auto;
     display: block;
     width: 120px;
-    border: 8px solid #f370ba;
-    border-radius: 50%;
+    border: 8px solid #b63bd4;
+    border-radius: 100%;
 }
 
 #header .profile h1{
@@ -73,7 +73,7 @@ section#inicio div#arraste a {
 
 #header .profile .social-links a {
     font-size: 1rem;
-    background: #ca44a8;
+    background: #ca4cd8;
     color: white;
     padding: 0.6rem;
     margin-right: 1rem;
@@ -178,7 +178,7 @@ i.menu-mobile{
 }
 
 *::-webkit-scrollbar-thumb {
-    background-color: #d73bb5;
+    background-color: #c336c8;
 }
 
 .section-bg {
