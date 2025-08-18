@@ -11,7 +11,7 @@ html, body{
 }
 
 section#inicio {
-    background-image: url("./img/pexels-designecologist-1779487.jpg");
+    background-image: url("./img/estagio\ salesforce.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -46,7 +46,7 @@ section#inicio div#arraste a {
     top: 0;
     left: 0;
     bottom: 0;
-    background: #fabcee;
+    background: #ffcfa9;
     overflow-y: auto;
     width: 300px;
     transition: all ease-in-out 0.5s;
@@ -55,10 +55,10 @@ section#inicio div#arraste a {
 }
 
 #header .profile img{
-    margin: 15px auto;
+    margin: 20px auto;
     display: block;
-    width: 110px;
-    border: 5px solid #c20c9d;
+    width: 100px;
+    border: 5px solid #fda65e;
     border-radius: 100%;
 }
 
@@ -73,7 +73,7 @@ section#inicio div#arraste a {
 
 #header .profile .social-links a {
     font-size: 1rem;
-    background: #c20c9d;
+    background: #fda65e;
     color: white;
     padding: 0.6rem;
     margin-right: 1rem;
