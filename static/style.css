@@ -11,7 +11,7 @@ html, body{
 }
 
 section#inicio {
-    background-image: url("./img/estagio\ salesforce.jpg");
+    background-image: url("./img/ESTAGIO4.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -29,7 +29,7 @@ section#inicio span#subtitle {
 }
 
 .text-shadow{
-    text-shadow: 4px 4px 10px #ffb5f0;
+    text-shadow: 4px 4px 10px #efb455;
 }
 
 section#inicio div#arraste {
@@ -124,7 +124,7 @@ section#inicio div#arraste a {
 i.menu-mobile{
     position: fixed;
     color: #fff;
-    background-color: #ca2a9a;
+    background-color: #fda65e;
     right: 1rem;
     top: 1rem;
     font-size: 1.5rem;
@@ -178,7 +178,7 @@ i.menu-mobile{
 }
 
 *::-webkit-scrollbar-thumb {
-    background-color: #e205a7;
+    background-color: #fda65e;
 }
 
 .section-bg {
