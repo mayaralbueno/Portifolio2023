@@ -1,4 +1,9 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
 
 html, body{
     font-family: Ubuntu, Arial;
@@ -11,7 +16,7 @@ html, body{
 }
 
 section#inicio {
-    background-image: url("./img/orange\ aura\ macbook\ wallpaper\ 🧡.jpg");
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.35) 100%), url("./img/orange\ aura\ macbook\ wallpaper\ 🧡.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -60,6 +65,12 @@ section#inicio div#arraste a {
     width: 100px;
     border: 5px solid #fda65e;
     border-radius: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#header .profile img:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 14px rgba(253, 166, 94, 0.5);
 }
 
 #header .profile h1{
@@ -193,6 +204,35 @@ i.menu-mobile{
 #img-icons-width {
     margin: 15px auto;
     width: 120px;
+    transition: transform 0.3s ease;
+}
+
+#img-icons-width:hover {
+    transform: translateY(-6px);
+}
+
+.skill-badges {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+.skill-badge {
+    background: #eff5ff;
+    border: 1.5px solid #1f5297;
+    color: #1f5297;
+    padding: 8px 18px;
+    border-radius: 30px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.skill-badge:hover {
+    background: #1f5297;
+    color: #ffffff;
+    transform: translateY(-3px);
 }
 
 @media (max-width: 400px) {
@@ -214,6 +254,11 @@ i.menu-mobile{
     margin-top: -2px;
     border-left: 2px solid #1f5297;
     position: relative;
+    transition: transform 0.3s ease;
+}
+
+.cv .cv-item:hover {
+    transform: translateX(6px);
 }
 
 .cv .cv-item h4{
@@ -242,7 +287,12 @@ i.menu-mobile{
     height: 16px;
     border: 2px solid #1f5297;
     background: #fff;
-    border-radius: 50%; 
+    border-radius: 50%;
+    transition: background 0.3s ease;
+}
+
+.cv .cv-item:hover::before {
+    background: #1f5297;
 }
 
 [data-anime] {
@@ -289,6 +339,46 @@ i.menu-mobile{
         flex-direction: column;
         align-items: center;
     }
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 24px rgba(0,0,0,0.15);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.btn-outline-primary,
+.btn-outline-dark {
+    transition: transform 0.3s ease;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-dark:hover {
+    transform: scale(1.1);
+}
+
+h2 {
+    position: relative;
+    display: inline-block;
+}
+
+h2::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #fda65e;
+    margin-top: 8px;
 }
 
 section#contato .email h4 {
